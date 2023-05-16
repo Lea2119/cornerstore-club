@@ -1,0 +1,26 @@
+.booking {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking h1 {
+  margin-top: 100px;
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.booking p {
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.options {
+  margin-top: 100px;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}

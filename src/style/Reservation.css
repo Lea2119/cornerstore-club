@@ -1,0 +1,13 @@
+.reservation-table {
+  padding: 80px;
+  font-size: 1.5rem;
+}
+
+.book-action {
+  background-color: #ffe500;
+}
+
+td,
+tr {
+  height: 50px;
+}

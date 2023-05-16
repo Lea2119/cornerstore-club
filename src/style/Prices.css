@@ -1,0 +1,43 @@
+.prices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.prices h1 {
+  padding: 40px;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+table {
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+tr > * {
+  padding: 5px;
+  font-size: 1.4rem;
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.highlighted {
+  color: red;
+}
+
+.prices button {
+  max-width: 100%;
+  width: 100%;
+  margin-top: 20px;
+}

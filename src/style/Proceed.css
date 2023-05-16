@@ -1,0 +1,35 @@
+.proceed {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.proceed-content {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 65%;
+  /* background-color: purple; */
+}
+
+.proceed-content h1 {
+  font-size: 2rem;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.proceed-content p {
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}

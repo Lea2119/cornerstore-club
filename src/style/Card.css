@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  min-height: 200px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgb(200, 200, 200);
+  background-color: white;
+}
+
+.card:nth-child(1) h2 {
+  color: red;
+}
+
+.card:nth-child(1) button {
+  background-color: red;
+  color: white;
+}
+
+.card h2 {
+  font-size: 2rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+}
+
+.price {
+  font-weight: 600;
+}

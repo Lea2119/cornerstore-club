@@ -1,0 +1,25 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  min-height: 500px;
+  background-image: url("../assets/pexels-cottonbro-studio-4753893.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.offer h1 {
+  color: white;
+  font-size: 3rem;
+  padding: 20px;
+  font-weight: 800;
+}
+
+.offer-text {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}

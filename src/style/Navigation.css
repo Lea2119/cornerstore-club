@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.navigation {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  /* background-color: red; */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  list-style: none;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container li {
+  /* background-color: blue; */
+  vertical-align: middle;
+}
+
+.nav-container a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: black;
+}
+
+.nav-container p {
+  font-size: 2rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 0.9;
+}
+
+.logo p {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-container ul {
+    font-size: 1.2rem;
+  }
+
+  .nav-container p {
+    font-size: 1.2rem;
+  }
+
+  .logo p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav-container ul {
+    font-size: 1rem;
+  }
+
+  .nav-container p {
+    font-size: 1rem;
+  }
+
+  .club,
+  .infos,
+  .planning {
+    display: none;
+  }
+
+  .logo p {
+    font-size: 1rem;
+  }
+}
