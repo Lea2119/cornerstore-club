@@ -33,22 +33,43 @@
 }
 
 @media (max-width: 600px) {
-    .offer-card {
-      height: 200px;
-      width: 80%;
-    }
-  
-    .new-price {
-      font-size: 3rem;
-    }
-  
-    .old-price {
-      font-size: 1rem;
-      margin: 0 0 0 10px;
-    }
-  
-    .sessions {
-      font-size: 1rem;
-    }
+  .offer-card {
+    height: 200px;
+    width: 80%;
   }
-  
+
+  .new-price {
+    font-size: 3rem;
+  }
+
+  .old-price {
+    font-size: 1rem;
+    margin: 0 0 0 10px;
+  }
+
+  .sessions {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .offer-card {
+    height: 50%;
+    width: 90%;
+  }
+
+  .offer-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .old-price {
+    margin-top: 20px;
+  }
+
+  .sessions {
+    margin-top: 20px;
+  }
+}

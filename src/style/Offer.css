@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 80px;
-  min-height: 500px;
+  height: 80vh;
   background-image: url("../assets/pexels-cottonbro-studio-4753893.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -15,6 +15,7 @@
   color: white;
   font-size: 3rem;
   padding: 20px;
+  margin: 0;
   font-weight: 800;
 }
 
@@ -22,4 +23,19 @@
   color: white;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 520px) {
+  .offer-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .offer h1 {
+    display: none;
+  }
+  .offer-text {
+    display: none;
+  }
 }

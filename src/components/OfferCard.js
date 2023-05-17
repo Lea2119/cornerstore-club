@@ -4,7 +4,7 @@ import "../style/OfferCard.css";
 const OfferCard = () => {
   return (
     <div className="offer-card">
-      <div>
+      <div className="offer-card-content">
         <p className="new-price">29$</p>
         <p className="old-price">
           <s>instead of 40$</s>

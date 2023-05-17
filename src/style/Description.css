@@ -1,13 +1,12 @@
 .about {
   background-color: black;
   color: white;
-  height: 70vh;
+  height: 100vh;
 }
 
 .about-wrapper {
   height: 100%;
   width: 100%;
-  /* background-color: blue; */
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(2, 1fr);
@@ -18,8 +17,8 @@
   font-size: 1.5rem;
   flex-direction: column;
   justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .about-content h1 {
@@ -30,6 +29,7 @@
 .about-content p {
   text-align: justify;
   line-height: 2;
+  font-size: 1.4rem;
 }
 
 .about-img {
