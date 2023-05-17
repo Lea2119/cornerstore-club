@@ -1,11 +1,10 @@
 .hero {
-  height: 800px;
-  background-image: url("../assets/pexels-cottonbro-studio-4753948-4096x2160-25fps.mp4");
+  height: 100vh;
 }
 
 .video {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
   filter: blur(10%);
   filter: grayscale(50%);

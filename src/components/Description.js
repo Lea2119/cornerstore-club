@@ -3,9 +3,9 @@ import "../style/Description.css";
 
 const Description = () => {
   return (
-    <div className="description">
-      <div className="description-wrapper">
-        <div className="description-content">
+    <div className="about">
+      <div className="about-wrapper">
+        <div className="about-content">
           <h1>All levels welcome</h1>
           <p>
             Unleash your inner fighter and join our boxing club. Train with
@@ -15,11 +15,7 @@ const Description = () => {
             and become a champion today.
           </p>
         </div>
-        <div className="description-img">
-          <img
-            src={require("../assets/logan-weaver-lgnwvr-9D_rUDe7xvA-unsplash.jpg")}
-            alt=""
-          />
+        <div className="about-img" >
         </div>
       </div>
     </div>

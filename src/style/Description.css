@@ -1,49 +1,48 @@
-.description {
-  margin: 0;
-  padding: 0;
+.about {
+  background-color: black;
+  color: white;
+  height: 70vh;
 }
 
-.description-wrapper {
-  padding: 40px;
+.about-wrapper {
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 2rem;
-  grid-template-areas:
-    "img"
-    "text";
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.description-content {
+.about-content {
   display: flex;
   font-size: 1.5rem;
   flex-direction: column;
   justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-h1 {
+.about-content h1 {
   margin: 0;
+  padding: 10px;
 }
 
-p {
+.about-content p {
   text-align: justify;
   line-height: 2;
 }
 
-.description-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.about-img {
+  background-image: url("../assets/thao-lee-XeBk0qF77_4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 30px;
 }
 
-img {
-  height: auto;
-  width: 300px;
-  grid-area: img;
-}
-
-@media screen and (min-width: 768px) {
-  .description-wrapper {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "text img";
+@media screen and (max-width: 768px) {
+  .about-wrapper {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
   }
 }

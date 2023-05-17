@@ -11,9 +11,9 @@ const Home = () => {
     <div className="home">
       <Hero />
       <Description />
-      <Offer />
+      {/* <Offer />
       <Prices />
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 };
