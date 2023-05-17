@@ -8,12 +8,12 @@ import Navigation from "./Navigation";
 const Hero = () => {
   return (
     <div className="hero">
-      <video className="video" autoPlay loop muted>
-        <source
-          src={require("../assets/pexels-cottonbro-studio-4753948-4096x2160-25fps.mp4")}
-          type="video/mp4"
-        />
-      </video>
+      <img
+        className="video"
+        src={require("../assets/hero.jpg")}
+        alt=""
+      />
+
       {/* <p className="title">- CORNERSTORE CLUB -</p> */}
       <Navigation className="hero-navigation" />
       <p className="hero-text">BOXING CLUB OPEN SINCE 2015</p>
