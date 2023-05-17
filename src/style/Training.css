@@ -1,0 +1,60 @@
+.training {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.training h1 {
+  padding: 20px;
+  margin: 0;
+}
+
+.training-wrapper {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.training-content {
+  height: 600px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+}
+
+.training-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 300px;
+}
+.training-content h4 {
+  margin: 20px;
+}
+
+.training-content p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.training-picture {
+  height: 300px;
+  width: 300px;
+  background-image: url("../assets/studio/pexels-cottonbro-studio-4754143.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.two {
+  background-image: url("../assets/english.jpg");
+}

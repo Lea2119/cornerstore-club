@@ -50,22 +50,6 @@ const Studio = () => {
             alt=""
           />
         </div>
-        <div className="image">
-          {" "}
-          <img
-            src={require("../assets/pexels-cottonbro-studio-4753929.jpg")}
-            alt=""
-          />
-        </div>
-        <div className="text">
-          CARDIO BOXING : Discover a discipline dedicated entirely to a training
-          targeted cardio and endurance. Moreover, the discipline will allow a
-          complete muscular reinforcement to increase the resistance radically.
-          The class is based on boxing-inspired workshops, which are done at the
-          pace of the timer. It is very complementary to boxing and will keep
-          you in good shape. In short, participate in a cardio boxing class to
-          improve your cardio and endurance and develop your muscle strength.
-        </div>
         <div className="text">
           FRENCH BOXING : French boxing is a percussion combat sport that
           consists of two opponents wearing gloves and slippers, striking each

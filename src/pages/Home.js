@@ -5,6 +5,7 @@ import Description from "../components/Description";
 import Offer from "../components/Offer";
 import Prices from "../components/Prices";
 import Footer from "../components/Footer";
+import Training from "../components/Training";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <Description />
       <Offer />
+      <Training />
       {/* <Prices />
       <Footer/> */}
     </div>

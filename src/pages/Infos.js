@@ -18,10 +18,10 @@ const Infos = () => {
             to accompany you.
           </div>
           <div className="image">
-            <img
+            {/* <img
               src={require("../assets/pexels-cottonbro-studio-4753923.jpg")}
               alt=""
-            />
+            /> */}
           </div>
           <div className="text">
             We provide free boxing gloves that are systematically disinfected
