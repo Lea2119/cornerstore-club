@@ -21,7 +21,7 @@
   align-items: center;
   width: 90%;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 0;
   padding: 0;
 }
@@ -38,7 +38,7 @@
 }
 
 .nav-container p {
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
 }
