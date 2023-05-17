@@ -10,7 +10,7 @@ const OfferCard = () => {
           <s>instead of 40$</s>
         </p>
       </div>
-      <p className="sessions">2 sessions</p>
+      {/* <p className="sessions">2 sessions</p> */}
     </div>
   );
 };

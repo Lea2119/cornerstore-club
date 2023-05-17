@@ -39,7 +39,7 @@
 
 .hero-text {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -64,7 +64,7 @@
 
 .buttons-wrapper {
   position: absolute;
-  top: 60%;
+  top: 75%;
   left: 50%;
   display: grid;
   gap: 2rem;

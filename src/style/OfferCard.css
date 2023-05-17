@@ -55,7 +55,7 @@
 @media screen and (max-width: 475px) {
   .offer-card {
     height: 50%;
-    width: 90%;
+    width: 260px;
   }
 
   .offer-card-content {
@@ -65,11 +65,19 @@
     justify-content: center;
   }
 
+  .offer-card-content s {
+    padding-right: 10px;
+  }
+  .new-price {
+    font-size: 5rem;
+  }
+
   .old-price {
     margin-top: 20px;
   }
 
   .sessions {
     margin-top: 20px;
+    padding-right: 5px;
   }
 }

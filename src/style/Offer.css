@@ -25,15 +25,21 @@
   font-weight: 600;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 720px) {
   .offer-text {
     font-size: 1.2rem;
   }
+
+  .offer h1 {
+    font-size: 1.8rem;
+  }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 520px) {
   .offer h1 {
-    display: none;
+    font-size: 1.2rem;
+    padding: 0;
+    margin-bottom: 20px;
   }
   .offer-text {
     display: none;
