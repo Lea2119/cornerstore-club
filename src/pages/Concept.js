@@ -15,10 +15,10 @@ const Studio = () => {
           to the traditional overcrowded and impersonal gyms.
         </div>
         <div className="image">
-          <img
+          {/* <img
             src={require("../assets/studio/pexels-cottonbro-studio-4754142.jpg")}
             alt=""
-          />
+          /> */}
         </div>
         <div className="text">
           We offer classes around the world of boxing, with or without
@@ -45,10 +45,10 @@ const Studio = () => {
         </div>
         <div className="image">
           {" "}
-          <img
+          {/* <img
             src={require("../assets/studio/pexels-ron-lach-8736743.jpg")}
             alt=""
-          />
+          /> */}
         </div>
         <div className="text">
           FRENCH BOXING : French boxing is a percussion combat sport that
@@ -60,10 +60,10 @@ const Studio = () => {
         </div>
         <div className="image">
           {" "}
-          <img
+          {/* <img
             src={require("../assets/studio/pexels-cottonbro-studio-4754143.jpg")}
             alt=""
-          />
+          /> */}
         </div>
         <div className="image">
           {" "}
@@ -92,10 +92,10 @@ const Studio = () => {
         </div>
         <div className="image">
           {" "}
-          <img
+          {/* <img
             src={require("../assets/studio/pexels-cottonbro-studio-4753985 (1).jpg")}
             alt=""
-          />
+          /> */}
         </div>
       </article>
     </div>

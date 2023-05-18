@@ -33,11 +33,11 @@
 }
 
 .about-img {
-  background-image: url("../assets/thao-lee-XeBk0qF77_4-unsplash.jpg");
+  background-image: url("../assets/pexels-cottonbro-studio-4753893.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 30px;
+  margin: 150px;
 }
 
 @media screen and (max-width: 768px) {

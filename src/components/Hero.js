@@ -8,9 +8,9 @@ import Navigation from "./Navigation";
 const Hero = () => {
   return (
     <div className="hero">
-      <img className="video" src={require("../assets/hero.jpg")} alt="" />
-
-      {/* <p className="title">- CORNERSTORE CLUB -</p> */}
+      <Navigation />
+      {/* <img className="video" src={require("../assets/hero.jpg")} alt="" /> */}
+      <div className="video"></div>
       <Navigation className="hero-navigation" />
       <p className="hero-text">BOXING CLUB OPEN SINCE 2015</p>
       <div className="buttons-wrapper">
