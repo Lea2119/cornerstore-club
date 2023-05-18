@@ -23,11 +23,6 @@ const Navigation = () => {
               <p>CLUB</p>
             </li>
           </NavLink>
-          <NavLink className="infos" to="/infos">
-            <li>
-              <p>INFOS</p>
-            </li>
-          </NavLink>
           <NavLink to="/subscription">
             <li>
               <p>OFFERS</p>
@@ -43,7 +38,7 @@ const Navigation = () => {
               <Badge badgeContent={credits} color="primary">
                 <PersonIcon
                   className="icon"
-                  sx={{ width: "34px", height: "34px" }}
+                  sx={{ color: "white", width: "30px", height: "30px" }}
                   color="white"
                 />
               </Badge>

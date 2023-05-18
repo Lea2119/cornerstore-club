@@ -1,11 +1,12 @@
 .button-offer button {
-    margin: 20px;
-    width: 500px;
+  margin: 20px;
+  width: 500px;
+  background-color: black;
+  color: white;
 }
 
 @media (max-width: 600px) {
-    .button-offer button {
-      width: 80%;
-    }
-  
+  .button-offer button {
+    width: 80%;
   }
+}

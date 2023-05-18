@@ -24,11 +24,11 @@ const Proceed = () => {
       <Navigation />
       {subscription && (
         <div className="proceed-content">
-          <h1>PROCEED PAYEMENT FOR : {subscription.name}</h1>
+          <h1>CREDIT : {subscription.name}</h1>
           <h2>{`${subscription.price}.00 $`}</h2>
-          <p>{subscription.description}</p>
+          <p className="sub-description">{subscription.description}</p>
           <div className="btn-wrapper">
-            <button onClick={handleConfirmOrder}>PROCEED TO PAIEMENT</button>
+            <button onClick={handleConfirmOrder}>PROCEED</button>
             <Link to="/subscription">
               <button>GO BACK TO OFFERS</button>
             </Link>

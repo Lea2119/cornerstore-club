@@ -1,17 +1,16 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-color: blue;
 }
 
 .video {
   width: 100%;
   height: 100%;
-  background-image: url("../assets/hero-5.jpg");
+  background-image: url("../assets/hero-8.jpg");
   background-position: center;
   background-size: cover;
   filter: blur(30%);
-  filter: grayscale(20%);
+  filter: grayscale(10%);
 }
 
 .hero .navigation li {

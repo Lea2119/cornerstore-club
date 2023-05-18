@@ -8,7 +8,6 @@ const Subscription = () => {
   return (
     <div className="subscription">
       <Navigation className="sub-nav" />
-      <h1 className="subscription-ttle">OFFERS</h1>
       <div className="cards-wrapper">
         {subscriptions.map((subscription) => (
           <Card

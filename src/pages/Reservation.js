@@ -3,42 +3,25 @@ import { reservations } from "../data/reservations";
 import "../style/Reservation.css";
 import Navigation from "../components/Navigation";
 import { Link } from "react-router-dom";
+import Slots from "../components/Slots";
 
 const Reservation = () => {
   return (
     <div className="reservation">
       <Navigation />
-      <div className="reservation-table">
-        <h1>PLANNING</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>activity</th>
-              <th>date</th>
-              <th>hours</th>
-              <th>duration</th>
-              <th>credit</th>
-              <th>action</th>
-            </tr>
-          </thead>
-          <tbody>
-            {reservations.map((reservation, index) => (
-              <tr key={index}>
-                <td>{reservation.activity}</td>
-                <td>{reservation.date}</td>
-                <td>{reservation.hours}</td>
-                <td>{reservation.duration}</td>
-                <td>{reservation.credit}</td>
-                <td>
-                  <Link className="book" to={`/book/${reservation.id}`}>
-                    {reservation.action}
-                  </Link>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+        <div className="cards-wrapper">
+          {reservations.map((reservation, index) => (
+            <Slots
+              key={index}
+              activity={reservation.activity}
+              date={reservation.date}
+              hours={reservation.hours}
+              duration={reservation.duration}
+              id={reservation.id}
+              action={reservation.action}
+            />
+          ))}
+        </div>
     </div>
   );
 };

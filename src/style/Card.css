@@ -6,8 +6,9 @@
   width: 300px;
   min-height: 200px;
   padding: 10px;
-  box-shadow: 5px 5px 5px rgb(200, 200, 200);
-  background-color: white;
+  margin: 10px;
+  /* box-shadow: 5px 5px 5px rgb(200, 200, 200); */
+  background-color: rgb(255, 255, 255);
 }
 
 .card:nth-child(1) h2 {

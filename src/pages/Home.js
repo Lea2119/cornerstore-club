@@ -7,6 +7,7 @@ import Prices from "../components/Prices";
 import Footer from "../components/Footer";
 import Training from "../components/Training";
 import Navigation from "../components/Navigation";
+import Faq from "../components/Faq";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Description />
       <Offer />
       <Training />
+      <Faq/>
       {/* <Prices />
       <Footer/> */}
     </div>

@@ -1,6 +1,7 @@
-/* .studio {
-    margin-bottom: 20px;
-} */
+.studio {
+  margin-bottom: 20px;
+  color: white;
+}
 
 h1 {
   margin-top: 80px;
@@ -9,14 +10,15 @@ h1 {
 }
 
 article {
+  margin-top: 150px;
   display: grid;
   grid-template-columns: 1;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(200px, auto);
 }
 
 .image,
 .text {
-  height: 380px;
+  height: 500px;
 }
 
 .text {
@@ -31,6 +33,7 @@ article {
 
 .image img {
   height: 100%;
+  width: 100%;
   object-fit: cover;
   object-position: center center;
 }

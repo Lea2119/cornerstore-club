@@ -25,12 +25,25 @@ const Training = () => {
           <div className="training-description">
             <h4>ENGLIGH BOXING</h4>
             <p>
-              English boxing, also known as the noble art, is a combat sport in
-              which two opponents exchange punches to the face and chest. It
-              does not include kicks, but it does emphasize movement and
-              footwork. What are the advantages of practicing English boxing?
-              Cardio, coordination, muscle strengthening, explosiveness,
-              coordination, endurance, technique, self-confidence, well-being
+              English boxing is a combat sport in which two opponents exchange
+              punches to the face and chest. It does not include kicks, but it
+              does emphasize movement and footwork. What are the advantages of
+              practicing English boxing? Cardio, coordination, muscle
+              strengthening, explosiveness, coordination, endurance, technique,
+              self-confidence, well-being
+            </p>
+          </div>
+        </div>
+        <div className="training-content">
+          <div className="training-picture three"></div>
+          <div className="training-description">
+            <h4>BOXING BAG</h4>
+            <p>
+              The boxing bag is a very complete class - cardio, muscle
+              strengthening and technique. You will use your feet and your fists
+              for a maximum workout. What are the benefits of boxing? Cardio,
+              coordination, muscle strengthening, explosiveness, coordination,
+              endurance, technique, self-confidence, well-being.
             </p>
           </div>
         </div>
