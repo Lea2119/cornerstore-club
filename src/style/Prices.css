@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 100px;
+  color: white;
 }
 
 .prices h1 {
@@ -11,8 +12,8 @@
 }
 
 thead {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 table {
@@ -21,6 +22,7 @@ table {
   border-collapse: collapse;
   text-transform: uppercase;
   font-weight: 500;
+  background-color: white;
   margin-bottom: 40px;
 }
 

@@ -6,7 +6,6 @@ import ButtonOffer from "./ButtonOffer";
 const Prices = () => {
   return (
     <div className="prices">
-      <h1>- OUR PRICES -</h1>
       <table>
         <thead>
           <tr>
@@ -74,9 +73,9 @@ const Prices = () => {
           </tr>
         </tbody>
       </table>
-      <NavLink to="/subscription">
+      {/* <NavLink to="/subscription">
       <ButtonOffer />
-      </NavLink>
+      </NavLink> */}
     </div>
   );
 };

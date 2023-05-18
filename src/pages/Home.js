@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Training from "../components/Training";
 import Navigation from "../components/Navigation";
 import Faq from "../components/Faq";
+import Map from "../components/Map";
 
 const Home = () => {
   return (
@@ -17,9 +18,10 @@ const Home = () => {
       <Description />
       <Offer />
       <Training />
-      <Faq/>
-      {/* <Prices />
-      <Footer/> */}
+      <Map />
+      {/* <Faq/> */}
+      {/* <Prices /> */}
+      {/* <Footer/> */}
     </div>
   );
 };
