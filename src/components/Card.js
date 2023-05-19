@@ -7,7 +7,7 @@ const Card = ({ name, price, description, id }) => {
     <div className="card">
       <h2>{name}</h2>
       <p>{description}</p>
-      <p className="price">{`${price}.00 $`}</p>
+      <p className="price">{`${price}.00 £`}</p>
       <Link to={`/proceed/${id}`}>
         <button>ADD TO BASKET</button>
       </Link>

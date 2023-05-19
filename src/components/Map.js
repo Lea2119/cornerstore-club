@@ -1,5 +1,5 @@
 import React from "react";
-import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "../style/Map.css";
 import { Icon } from "leaflet";
@@ -8,8 +8,7 @@ import img from "../assets/lieu.png";
 const Map = () => {
   const markers = [
     {
-      geocode: [48.8566, 2.3522],
-      popup: "Hello, I'm a popup",
+      geocode: [51.5167, -0.2167],
     },
   ];
 
@@ -20,13 +19,20 @@ const Map = () => {
 
   return (
     <div className="map">
-      <MapContainer center={[48.8566, 2.3522]} zoom={13}>
+      <MapContainer center={[51.5167, -0.2167]} zoom={13}>
         <TileLayer
           attribution="openstreetmap"
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {markers.map((marker) => (
-          <Marker position={marker.geocode} icon={customIcons}></Marker>
+          <Marker position={marker.geocode} icon={customIcons}>
+            <Popup>
+              <h5>CORNERSTORE CLUB</h5>
+              <p>123 Main Street Notting Hill</p>
+              <p>London</p>
+              <p>United Kingdom</p>
+            </Popup>
+          </Marker>
         ))}
       </MapContainer>
     </div>
