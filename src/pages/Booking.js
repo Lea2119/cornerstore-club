@@ -26,24 +26,34 @@ const Booking = () => {
     <div className="booking">
       <Navigation />
       {reservation && (
-        <h1>
-          You're Booking : {reservation.activity} on {reservation.date} at{" "}
-          {reservation.hours}
-        </h1>
+        <div>
+          <h1>You're Booking</h1>
+          <p>{reservation.activity}</p>
+          <p>{reservation.date}</p>
+          <p>{reservation.hours}</p>
+        </div>
       )}
       <p>You have {credits} credits.</p>
       {credits >= reservation.credit ? (
-        <button onClick={handleBook}>BOOK</button>
+        <div className="options">
+          <button className="book" onClick={handleBook}>
+            BOOK
+          </button>
+        </div>
       ) : (
-        <p>You don't have enough credits to book this activity.</p>
+        <p className="credit-warning">
+          You don't have enough credits to book this activity.
+        </p>
       )}
-      <div className="options">
-        <Link to="/reservations">
-          <button>GO BACK TO PLANNING</button>
-        </Link>
-        <Link to="/subscription">
-          <button>GO TO OFFERS</button>
-        </Link>
+      <div>
+        <div className="options">
+          <Link to="/reservations">
+            <button>GO BACK TO PLANNING</button>
+          </Link>
+          <Link to="/subscription">
+            <button>GO TO OFFERS</button>
+          </Link>
+        </div>
       </div>
     </div>
   );
