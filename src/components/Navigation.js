@@ -38,11 +38,11 @@ const Navigation = () => {
               <Badge badgeContent={credits} color="primary">
                 <PersonIcon
                   className="icon"
-                  sx={{ color: "white", width: "30px", height: "30px" }}
+                  sx={{ color: "white", width: "20px", height: "20px" }}
                   color="white"
                 />
               </Badge>
-            </li>
+            </li>gi
           </NavLink>
         </ul>
       </nav>
