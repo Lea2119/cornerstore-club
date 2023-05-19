@@ -42,7 +42,7 @@ const Navigation = () => {
                   color="white"
                 />
               </Badge>
-            </li>gi
+            </li>
           </NavLink>
         </ul>
       </nav>
