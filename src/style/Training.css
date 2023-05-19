@@ -84,7 +84,6 @@
   .training-picture {
     height: 400px;
     width: 600px;
-    background-image: url("../assets/pexels-cottonbro-studio-4753893.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +104,6 @@
   .training-picture {
     height: 300px;
     width: 280px;
-    background-image: url("../assets/pexels-cottonbro-studio-4753893.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

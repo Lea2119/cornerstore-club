@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+.subscription button {
+  background-color: black;
+  color: white;
+}
+
 .cards-wrapper {
   padding: 10px;
   width: 100%;
