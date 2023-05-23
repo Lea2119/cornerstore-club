@@ -36,14 +36,14 @@ const Studio = () => {
           />
         </div>
         <div className="text">
-          BOXING BAG : unopposed, during an intense cardio training session, you
-          will be facing a punching bag. The boxing bag is a very complete class
-          - cardio, muscle strengthening and technique. 
+          Whether you're a seasoned fighter or just stepping into the ring for
+          the first time, our doors are open wide, ready to embrace your passion
+          for the noble sport of boxing.
         </div>
         <div className="image">
           {" "}
           <img
-            src={require("../assets/studio/pexels-ron-lach-8736743.jpg")}
+            src={require("../assets/studio/pexels-cottonbro-studio-4761663.jpg")}
             alt=""
           />
         </div>

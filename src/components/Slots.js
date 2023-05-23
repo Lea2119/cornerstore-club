@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Slots = ({ activity, date, hours, duration, id, action }) => {
+const Slots = ({ activity, date, hours, duration, id }) => {
   return (
     <div className="slots">
       <div className="card">
