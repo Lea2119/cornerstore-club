@@ -35,7 +35,7 @@ const Navigation = () => {
           </NavLink>
           <NavLink to="">
             <li>
-              <Badge badgeContent={credits} color="primary">
+              <Badge badgeContent={credits} color="error">
                 <PersonIcon
                   className="icon"
                   sx={{ color: "white", width: "20px", height: "20px" }}
